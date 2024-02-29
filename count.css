@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+  font-family:  "Open Sans", sans-serif;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #fff;
+
+ 
+}
+
+body{
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
+  background-position: center center;
+  background-size: 600% 200%;
+  background-image: linear-gradient( 60deg, #ff6596, #60bef8, #d88cff);
+  animation: color 5s infinite linear;
+
+}
+
+img{
+  width:39rem;
+  border-radius:2%;
+
+}
+
+
+.text-box{
+  width: 35%;
+  margin-left: 2rem;
+  
+
+}
+@keyframes color {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+
+section {
+  display: flex;
+      flex-wrap: wrap;
+ gap: 2rem;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+.gift0-imag{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0% 8% 1%;
+
+  
+}
+
+.ends{
+  color:#102A42 ;
+  width: auto;
+  padding-bottom: 1rem;
+  
+}
+
+h3 {
+  
+  font-size: 2rem;
+  color: #0B64A4;
+  text-transform: uppercase;
+  font-style: italic;
+
+  
+}
+
+h4 {
+  font-size:18px;
+  padding-bottom:5px;
+  
+  
+}
+
+
+  
+  h3{
+    font-weight: bold;
+  }
+  h4 {
+    line-height: 2;
+ 
+}
+.countdown{
+ 
+  display: flex;
+   gap: 3%;
+   padding-top: 4%;
+  font-size: 20px;
+  text-align: center;
+  
+
+}
+
+.time-box{
+  width: 13vh;
+  padding: 15px 15px 15px 15px;
+  background-color:#063251 ;
+  text-align: center;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 200%; 
+  
+  
+
+}
+
+
+ 
+span{
+  font-weight: lighter;
+  font-size: 70%;
+  text-transform: uppercase;
+
+}
+.day{
+
+  font-size: 30px;
+  line-height: 1;
+  
+}
+
+
+ .hour{
+
+  font-size: 30px;
+  line-height: 1;
+  
+}
+.minute {
+
+  font-size: 30px;
+  line-height: 1;
+  
+}
+.second {
+
+  font-size: 30px;
+  line-height: 1;
+  
+}
+
+
+
+
+
+@media only screen and (min-width: 321px) and  (max-width: 480px) {
+ img{
+  width: 100%; 
+ }
+  body{
+    height: 100vh;
+    width: 100vh;
+  }
+
+  img{
+    width: 400%;
+  }
+  section {
+    display: flex;
+   flex-direction: column;
+   
+   }
+
+   article {
+    
+    display: flex;
+    flex-direction: column;
+   }
+  h3 {
+   font-size: 1.25rem;
+    font-weight: bold
+  }
+
+  
+} 
+    
